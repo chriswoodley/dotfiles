@@ -1,5 +1,10 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+	"bold_folder_labels": true,
+	"caret_extra_bottom": 3,
+	"caret_extra_top": 3,
+	"caret_extra_width": 2,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
 	"default_encoding": "UTF-8",
 	"default_line_ending": "unix",
 	"detect_indentation": false,
@@ -18,15 +23,19 @@
 	"folder_exclude_patterns":
 	[
 		".git",
+		".svn",
 		"node_modules"
 	],
-	"font_face": "Monaco",
-	"font_size": 13,
+	"font_face": "Source Code Pro Light",
+	"font_size": 20,
 	"highlight_modified_tabs": true,
+	"highlight_line": true,
+	"indent_to_bracket": true,
 	"hot_exit": false,
 	"line_padding_bottom": 5,
 	"match_brackets": true,
 	"match_brackets_angle": true,
+	"overlay_scroll_bars": "enabled",
 	"remember_open_files": false,
 	"rulers":
 	[
@@ -34,8 +43,10 @@
 	],
 	"show_encoding": true,
 	"show_line_endings": true,
+	"shift_tab_unindent": true,
 	"tab_size": 2,
-	"translate_tabs_to_spaces": false,
+	"theme": "Seti.sublime-theme",
+	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": true
+	"word_wrap": true  
 }
