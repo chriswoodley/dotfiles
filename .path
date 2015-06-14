@@ -5,4 +5,4 @@ export PATH="/usr/local/git/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:$PATH"
 export PATH="/Applications/MAMP/bin/php/php5.6.7/bin:$PATH"
 
 # Path where composer packages (i.e. laravel) are installed
-export PATH="~/.composer/vendor/bin:$PATH"
+export PATH="$PATH:$HOME/.composer/vendor/bin"
