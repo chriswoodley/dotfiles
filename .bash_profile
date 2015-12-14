@@ -52,3 +52,6 @@ code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
 
 #Add dnvm (.NET)
 source dnvm.sh
+
+# Add RVM
+source $HOME/.rvm/scripts/rvm
