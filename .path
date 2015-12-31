@@ -1,8 +1,5 @@
 # Path where Git, node.js, and composer is installed
 export PATH="/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/local/git/bin:$PATH"
 
-# Use MAMP PHP as the default PHP
-export PATH="/Applications/MAMP/bin/php/php5.6.7/bin:$PATH"
-
 # Path where composer packages (i.e. laravel) are installed
 export PATH="$PATH:$HOME/.composer/vendor/bin"
