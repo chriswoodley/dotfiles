@@ -184,3 +184,8 @@
 [url "git://gist.github.com/"]
 
     insteadOf = "gist:"
+
+[user]
+
+    name = "Chris Woodley"
+    email = "chriswoodley@me.com"
