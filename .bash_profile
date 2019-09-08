@@ -51,9 +51,3 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 
 # Add Visual Studio Code to terminal
 code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
-
-#Add dnvm (.NET)
-source dnvm.sh
-
-# Add RVM
-source $HOME/.rvm/scripts/rvm
