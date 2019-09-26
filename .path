@@ -2,7 +2,7 @@
 export PATH="/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/local/git/bin:$PATH"
 
 # Path where MySQL is installed
-export PATH="/usr/local/opt/mysql@5.7/bin:$PATH
+export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 
 # Path where composer packages (i.e. laravel) are installed
 export PATH="$PATH:$HOME/.composer/vendor/bin"
@@ -13,9 +13,6 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 export PATH="/usr/local/opt/gpg-agent/bin:$PATH"
 
 export PATH="/usr/local/opt/qt/bin:$PATH"
-
-# Path where global node modules are installed
-export PATH=~/.npm-global/bin:$PATH
 
 # Path where NVM is installed
 export NVM_DIR="$HOME/.nvm"
